@@ -2,6 +2,7 @@ My emacs config
 ===============
 
 Do this:
+
 .. code:: sh
 
    git clone git@github.com:larsjsol/emacs.d.git
