@@ -27,3 +27,11 @@
 ;;;
 (require 'rainbow-delimiters)
 (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
+
+;;;
+;;; Always nyan.cat
+;;;
+(require 'nyan-mode)
+(setq nyan-wavy-trail t)
+(nyan-mode)
+(nyan-start-animation)
