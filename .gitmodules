@@ -4,3 +4,15 @@
 [submodule "site-lisp/nyan-mode"]
 	path = site-lisp/nyan-mode
 	url = https://github.com/TeMPOraL/nyan-mode.git
+[submodule "site-lisp/flycheck"]
+	path = site-lisp/flycheck
+	url = https://github.com/flycheck/flycheck.git
+[submodule "site-lisp/s"]
+	path = site-lisp/s
+	url = https://github.com/magnars/s.el.git
+[submodule "site-lisp/dash"]
+	path = site-lisp/dash
+	url = https://github.com/magnars/dash.el.git
+[submodule "site-lisp/f"]
+	path = site-lisp/f
+	url = https://github.com/rejeep/f.el.git
