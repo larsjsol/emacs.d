@@ -60,7 +60,9 @@
 (add-hook 'after-init-hook #'global-flycheck-mode)
 (add-hook 'c++-mode-hook
           (lambda () (setq flycheck-clang-include-path
-                           (list 
+                           (list
+                            "/usr/include/c++/4.8/"
+                            "/usr/include/x86_64-linux-gnu/c++/4.8/"
                             "/usr/local/include"
                             "/usr/local/include/OGRE"
                             "/usr/local/include/OGRE/Overlay"
